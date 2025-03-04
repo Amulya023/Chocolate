@@ -7,7 +7,7 @@ const ordersSlice = createSlice({
     addToOrders: (state, action) => {
       const existingOrder = state.find(order => order.id === action.payload.id);
       if (existingOrder) {
-        existingOrder.quantity += action.payload.quantity; ; 
+        existingOrder.quantity += action.payload.quantity;  
       } else {
         state.push({ ...action.payload, quantity: action.payload.quantity }); 
       }

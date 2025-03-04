@@ -7,7 +7,7 @@ import Footer from './Footer';
 import Home from './Home';
 import About from './About';
 import Orders from './Orders';
-
+import Payment from './Payment'; 
 function App() {
   return (
     <Provider store={store}>
@@ -17,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/orders" element={<Orders />} />
+          <Route path="/payment" element={<Payment />} />
         </Routes>
         <Footer />
       </Router>

@@ -4,7 +4,7 @@ import { Box, Image, Text, Button } from '@chakra-ui/react';
 
 const ChocolateItem = ({ chocolate, addToOrders }) => {
   return (
-    <Box className="chocolate-item" p={4} border="1px" borderColor="gray.200" borderRadius="md">
+    <Box className="chocolate-item" p={4} border="1px solid green" borderColor="gray.200" borderRadius="md">
       <Image src={chocolate.image} alt={chocolate.name} />
       <Text fontSize="xl" fontWeight="bold">{chocolate.name}</Text>
       <Text>{chocolate.price}</Text>
