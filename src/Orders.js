@@ -39,7 +39,11 @@ const Orders = () => {
     }}>
       <div style={{ padding: '20px' }}>
         <h2>Your Orders</h2>
-        <p style={{ fontSize: '20px', fontWeight: 'normal' }}>List of Items</p>
+        <p style={{ fontSize: '20px',
+           fontWeight: 'normal',
+           alignment: 'center' }}>
+          List of Items
+        </p>
       </div>
       <div style={{ 
         flex: '1', 
